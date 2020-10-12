@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LonelyBusinesswoman/JSExcel.git"
+    "url": "git+https://github.com/vladilenm/excel-course.git"
   },
   "keywords": [
     "js",
     "javascript",
     "excel"
   ],
-  "author": "lizaveta",
+  "author": "Vladilen Minin <vladilen.minin@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vladilenm/excel-course/issues"
@@ -27,6 +27,7 @@
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
@@ -47,8 +48,6 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
-    "node-gyp": "^7.1.0",
-    "normalize.css": "^8.0.1",
-    "rebuild": "^0.1.2"
+    "normalize.css": "^8.0.1"
   }
 }
